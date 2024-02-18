@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IBqpDlOuKUWYOv6nscfhBQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.jiomart.com/search/onion%201kg/in/prod_mart_master_vertical" CvTextArea="1191, 294, 68, 17" CvTextArgument="tomato" CvType="Text" DesignTimeRectangle="1139, 282, 570, 40" DesignTimeScaleFactor="1.25" FriendlyName="'tomato'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;header&amp;gt;section&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;ul&amp;gt;li&amp;gt;div' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='DIV' class='product-item-info auto-suggestion' aaname='' check:innerText='tomato' /&gt;" Guid="c038ed53-7180-40d0-80d6-633074efc919" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Search Results – JioMart.com' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="244e020d893ecb3ea67986d1b6b439d2.png" xmlns="">0d_joz1ScokKjtPVlK-TLeg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

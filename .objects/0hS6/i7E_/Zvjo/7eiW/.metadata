@@ -1,0 +1,16 @@
+﻿{
+  "Name": "SearchJioMart",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "7eiW3wUvKUCTgNt5gJym_g",
+  "Reference": "Ud9TRoFwzkq0wxCtLYlw0Q/7eiW3wUvKUCTgNt5gJym_g",
+  "ParentRef": "Ud9TRoFwzkq0wxCtLYlw0Q/ZvjoOWEB5keuowhBfIytrA",
+  "Created": "2024-02-18T05:19:42.440629Z",
+  "Updated": "2024-02-18T05:20:46.2487139Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

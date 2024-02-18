@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Onion",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "I_NC8Y6lb0y_4FHYCwJTag",
+  "Reference": "Ud9TRoFwzkq0wxCtLYlw0Q/I_NC8Y6lb0y_4FHYCwJTag",
+  "ParentRef": "Ud9TRoFwzkq0wxCtLYlw0Q/ZvjoOWEB5keuowhBfIytrA",
+  "Created": "2024-02-18T09:35:40.9639743Z",
+  "Updated": "2024-02-18T09:36:07.1795007Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

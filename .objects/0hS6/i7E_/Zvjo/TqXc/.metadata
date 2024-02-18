@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Quantity1",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "TqXceWO1KUOdh_zKLBC03w",
+  "Reference": "Ud9TRoFwzkq0wxCtLYlw0Q/TqXceWO1KUOdh_zKLBC03w",
+  "ParentRef": "Ud9TRoFwzkq0wxCtLYlw0Q/ZvjoOWEB5keuowhBfIytrA",
+  "Created": "2024-02-18T10:06:39.3246854Z",
+  "Updated": "2024-02-18T10:07:04.1300752Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IZHsSmV0nEeV5yDs0sbY4Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.jiomart.com/search/Tomato" CvTextArea="629, 719, 284, 20" CvTextArgument="Add +" CvType="Text" DesignTimeRectangle="610, 708, 326, 42" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Add'" FullSelectorArgument="&lt;webctrl parentid='590003517' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='590003517' tag='BUTTON' type='' class='jm-btn small secondary full-width jm-body-s-bold addtocartbtn ' aaname=' Add  ' check:innerText='Add' /&gt;" Guid="552fcdff-d2aa-4195-b0d7-266f384b4582" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Search Results – JioMart.com' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1d447fbb5793a5f2fa43d8c93ddb78a4.png" xmlns="">0t4z9HoLgf0CNbqmRGDaTug</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

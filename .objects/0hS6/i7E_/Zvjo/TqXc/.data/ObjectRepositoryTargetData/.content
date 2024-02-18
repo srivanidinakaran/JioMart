@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_WAa6WbCT0mkEqG6Yc3e0Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.jiomart.com/checkout/smartcart" CvTextArea="1100, 777, 10, 17" CvTextArgument="1" CvType="Text" DesignTimeRectangle="1086, 774, 41, 23" DesignTimeScaleFactor="1.25" FriendlyName="'1'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-root&amp;gt;jds-theme&amp;gt;jds-container&amp;gt;app-layout-ds&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;app-smart-cart&amp;gt;div&amp;gt;jds-grid&amp;gt;div&amp;gt;jds-container&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;jds-text' idx='2' parentid='itemid-590003515' tag='JDS-TEXT' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='qty sp--s pd--horizontal' parentid='itemid-590003515' tag='JDS-TEXT' aaname='' check:innerText='1' /&gt;" Guid="27bfdc6a-f905-4e4b-b1fd-e52c20506518" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Buy Grocery Online at Best Prices Pan India' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="bc8bbac6893071ef1aece6745c2486e6.png" xmlns="">0UU80qSpIy0-ctIAGwUkbjA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

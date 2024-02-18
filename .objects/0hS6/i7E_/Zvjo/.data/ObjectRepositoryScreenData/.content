@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="tkjhFDkNbkqk8uS2d95KyQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJZSURBVFhHtVe7TsMwFI1EjRirpt0BwV4JdgZ2FmakCkb4CjamIiY2YIGZgZ2BvQg+ILQNFCEgIJ7iFe5x7BLKrWOX9kinihL73Ift61vPFoGXzzeGSpVw2N9qimKtmfOjpvBjSflcrIXC32oIv4Kxatr/QWKjdeGv/zJoQTjTorlKxh0yYlGocuIubIhi1TkjiJpSGXCCvZCyEVhnI/Ty5X4a14QToSiVlRke/Y68k8ZMJGtuZ/xiohy/Hh7FX9FdDDzvH8QXk2V2bCfhBLsnbDccjGvDaXzSO1snsDGV2QRIPTeQ4wtFCzzu7MVhaUw6hGcAWeHmcPy1FJT6bW4QR410tOelcfkOWUiPNRG1RRrHenADulHD9r2BkdwLFH2F+djm5fQMu+ZZ+Dirx5dTM6ymJkp7Zvrfjk+VpDvejk9YTU2Uay/ExcJ81HwPGkrOHcgCp/nDQs2jH+MlM8gMECNygP3Qpj52vcDmWGY68LSzq+TcgQrJaaaZuQQPG5tKzh2Yy2mmGGVuwvvVNSXnDszlNH9Im5AqkvEY3iyuKDl33C4ts5qa8hiiGHAfNa/nF5ScOzCX09REEVSluPs+QCXsFVezc6ymZvtarueo6WQGgLjtekXLcD3L9GsEI+brGOfZFVlFqEU2lfkE1HYbs2BbD3BxweGM5iS5itPAelBXNLB+UDMkG0G+S5uOpRikEzD+J/WdCAXa8v47AePQVmbM6HcmrCLvhKwPho3pwPWua26DJBv2TatkrhCh6XSO2gREgdIpncnh73mqeuKZ3qG4oLTbR+x539IEMjBilVOEAAAAAElFTkSuQmCC" Selector="&lt;html app='chrome.exe' title='JioMart - Best Online Grocery Store for Your Daily Needs' /&gt;" Title="JioMart - Best Online Grocery Store for Your Daily Needs" Url="https://www.jiomart.com/c/groceries/2">
+      <imageRef attrName="InformativeScreenshot" originalValue="6a73c8fca290b37142b023717538c886.jpg" xmlns="">0o6lvJq6-VEGGKcIz7DAs5g</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

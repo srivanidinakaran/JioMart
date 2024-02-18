@@ -1,0 +1,16 @@
+﻿{
+  "Name": "OnionCart",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "aMqp2c_0NUaGe1YQvtxqoQ",
+  "Reference": "Ud9TRoFwzkq0wxCtLYlw0Q/aMqp2c_0NUaGe1YQvtxqoQ",
+  "ParentRef": "Ud9TRoFwzkq0wxCtLYlw0Q/ZvjoOWEB5keuowhBfIytrA",
+  "Created": "2024-02-18T09:44:55.0454319Z",
+  "Updated": "2024-02-18T09:45:25.8096974Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

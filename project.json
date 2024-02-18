@@ -17,7 +17,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.12.0.0",
-  "projectVersion": "1.0.2",
+  "projectVersion": "1.0.5",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -67,6 +67,14 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "TestCase\\TestCaseSignUP.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "e68dbc2f-8e75-42a8-906a-fbbc69f3f3fa",
+        "dataVariationFilePath": ".variations\\TestData1_Sheet1.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase\\TestCaseAddProduct.xaml"
       }
     ],
     "saveToCloud": false

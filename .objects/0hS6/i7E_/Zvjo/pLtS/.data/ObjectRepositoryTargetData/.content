@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VlD9VeOCZUq2Vb6fFWU-RA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.jiomart.com/search/vegetables%20in%20fresh/in/prod_mart_master_vertical?prod_mart_master_vertical%5BhierarchicalMenu%5D%5Bcategory_tree.level0%5D%5B0%5D=Category" CvElementArea="1563, 197, 52, 50" CvTextArea="1589, 206, 12, 15" CvType="Icon" DesignTimeRectangle="1552, 197, 60, 60" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'BUTTON btn_minicart'" FullSelectorArgument="&lt;webctrl id='btn_minicart' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='btn_minicart' tag='BUTTON' type='' class='jm-btn primary medium jm-icon jm-border-none' aaname='  ' /&gt;" Guid="0d756d05-49a1-4641-88fb-f846b45d711f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Search Results – JioMart.com' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="362bbee8a8c62d2a96caa95835909ed3.png" xmlns="">0Yf11NiiUCE6V9QP9wMMU3g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

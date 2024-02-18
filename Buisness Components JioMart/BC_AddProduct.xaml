@@ -1,0 +1,270 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="BC_AddProduct" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:ra="clr-namespace:ReporterForUiPath.Activities;assembly=ReporterForUiPath.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="Product1" Type="InArgument(x:String)" />
+    <x:Property Name="Product2" Type="InArgument(x:String)" />
+    <x:Property Name="int_Repid" Type="InArgument(x:Int32)" />
+    <x:Property Name="int_TestId" Type="InArgument(x:String)" />
+  </x:Members>
+  <this:BC_AddProduct.Product1>
+    <InArgument x:TypeArguments="x:String" />
+  </this:BC_AddProduct.Product1>
+  <this:BC_AddProduct.Product2>
+    <InArgument x:TypeArguments="x:String" />
+  </this:BC_AddProduct.Product2>
+  <this:BC_AddProduct.int_Repid>
+    <InArgument x:TypeArguments="x:Int32" />
+  </this:BC_AddProduct.int_Repid>
+  <this:BC_AddProduct.int_TestId>
+    <InArgument x:TypeArguments="x:String" />
+  </this:BC_AddProduct.int_TestId>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>860,4257.6</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>BC_AddProduct_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>ReporterForUiPath.Enums</x:String>
+      <x:String>ReporterForUiPath.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>ReporterForUiPath.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>ReporterForUiPath</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="BC_AddProduct" sap:VirtualizedContainerService.HintSize="664.8,4192.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="HomeUrlJio" sap:VirtualizedContainerService.HintSize="602.4,4080.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="6eedccc4-acdc-4838-b2f3-ccc3c83361c7" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="568.8,3864" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="CartP1" />
+              <Variable x:TypeArguments="x:String" Name="CartP2" />
+              <Variable x:TypeArguments="sd:DataTable" Name="ProductsDetail" />
+              <Variable x:TypeArguments="x:String" Name="Qty1" />
+              <Variable x:TypeArguments="x:String" Name="Qty2" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="506.4,134.4" sap2010:WorkflowViewState.IdRef="StepStatus_1" ReportId="[int_Repid]" Status="Compare" StepDescription="Application Should be Launched" StepName="The Application is Launched" TakeScreenshot="True" TestId="[int_TestId]" />
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'SearchJioMart'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="506.4,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="[Product1]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.jiomart.com/c/groceries/2" ContentHash="IF_KpFs6Z0G20yAMSt5PJQ" CvTextArea="1210, 219, 142, 18" CvTextArgument="Search JioMart" CvType="Text" DesignTimeRectangle="1152, 202, 390, 50" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'INPUT autocomplete-0-in…'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='search' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='search' class='aa-Input search_input' aaname='' /&gt;" Guid="8d739847-b20a-44e0-93fd-cad0a05d9d61" InformativeScreenshot="342f675000a65415749ee654b4d715ab.png" Reference="Ud9TRoFwzkq0wxCtLYlw0Q/7eiW3wUvKUCTgNt5gJym_g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='JioMart - Best Online Grocery Store for Your Daily Needs' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Onion'" sap:VirtualizedContainerService.HintSize="506.4,157.6" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6eedccc4-acdc-4838-b2f3-ccc3c83361c7" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.jiomart.com/checkout/smartcart" ContentHash="Oyyt6PuoZkCv4L7nRj5onQ" CvTextArea="1195, 310, 92, 23" CvTextArgument="onion 1kg" CvType="Text" DesignTimeRectangle="1141, 290, 566, 60" DesignTimeScaleFactor="1.25" ElementType="ListItem" FriendlyName="'Onion'" FullSelectorArgument="&lt;webctrl tag='LI' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LI' type='' class='ng-star-inserted' aaname='' check:innerText='onion 1kg' /&gt;" Guid="5136f030-cd6e-4a3e-b1a7-b6008f31b23f" InformativeScreenshot="65cf3b7dd94478d38395e10f6c0830fd.png" Reference="Ud9TRoFwzkq0wxCtLYlw0Q/I_NC8Y6lb0y_4FHYCwJTag" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Buy Grocery Online at Best Prices Pan India' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'AddOnion'" sap:VirtualizedContainerService.HintSize="506.4,157.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6eedccc4-acdc-4838-b2f3-ccc3c83361c7" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.jiomart.com/search/onion%201kg/in/prod_mart_master_vertical" ContentHash="sTLXGQ4NDUadFQGmzrMEVw" CvTextArea="629, 719, 284, 20" CvTextArgument="Add +" CvType="Text" DesignTimeRectangle="610, 708, 326, 42" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'AddOnion'" FullSelectorArgument="&lt;webctrl parentid='590003515' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='590003515' tag='BUTTON' type='' class='jm-btn small full-width secondary jm-body-s-bold addtocartbtn' aaname='                                         Add                                                                                                                  ' check:innerText='Add' /&gt;" Guid="f71fca77-987a-4e2b-8614-de056d52ea40" InformativeScreenshot="84e70f86addabb64c2579f910c58ed0d.png" Reference="Ud9TRoFwzkq0wxCtLYlw0Q/zozC6CHIMkCQ65DdVm4bNQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Search Results – JioMart.com' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'SearchJioMart'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="506.4,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="6eedccc4-acdc-4838-b2f3-ccc3c83361c7" Text="[Product2]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.jiomart.com/c/groceries/2" ContentHash="IF_KpFs6Z0G20yAMSt5PJQ" CvTextArea="1210, 219, 142, 18" CvTextArgument="Search JioMart" CvType="Text" DesignTimeRectangle="1152, 202, 390, 50" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'SearchJioMart'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='search' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='search' class='aa-Input search_input' aaname='' /&gt;" Guid="8d739847-b20a-44e0-93fd-cad0a05d9d61" InformativeScreenshot="342f675000a65415749ee654b4d715ab.png" Reference="Ud9TRoFwzkq0wxCtLYlw0Q/7eiW3wUvKUCTgNt5gJym_g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='JioMart - Best Online Grocery Store for Your Daily Needs' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Tomato'" sap:VirtualizedContainerService.HintSize="506.4,157.6" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6eedccc4-acdc-4838-b2f3-ccc3c83361c7" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.jiomart.com/search/onion%201kg/in/prod_mart_master_vertical" ContentHash="IBqpDlOuKUWYOv6nscfhBQ" CvTextArea="1191, 294, 68, 17" CvTextArgument="tomato" CvType="Text" DesignTimeRectangle="1139, 282, 570, 40" DesignTimeScaleFactor="1.25" FriendlyName="'Tomato'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;header&amp;gt;section&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;ul&amp;gt;li&amp;gt;div' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='DIV' class='product-item-info auto-suggestion' aaname='' check:innerText='tomato' /&gt;" Guid="c038ed53-7180-40d0-80d6-633074efc919" InformativeScreenshot="244e020d893ecb3ea67986d1b6b439d2.png" Reference="Ud9TRoFwzkq0wxCtLYlw0Q/vd4Vphu5QUqeRF-dalGhXw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Search Results – JioMart.com' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'AddTomato'" sap:VirtualizedContainerService.HintSize="506.4,157.6" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6eedccc4-acdc-4838-b2f3-ccc3c83361c7" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.jiomart.com/search/Tomato" ContentHash="IZHsSmV0nEeV5yDs0sbY4Q" CvTextArea="629, 719, 284, 20" CvTextArgument="Add +" CvType="Text" DesignTimeRectangle="610, 708, 326, 42" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'AddTomato'" FullSelectorArgument="&lt;webctrl parentid='590003517' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='590003517' tag='BUTTON' type='' class='jm-btn small secondary full-width jm-body-s-bold addtocartbtn ' aaname=' Add  ' check:innerText='Add' /&gt;" Guid="552fcdff-d2aa-4195-b0d7-266f384b4582" InformativeScreenshot="1d447fbb5793a5f2fa43d8c93ddb78a4.png" Reference="Ud9TRoFwzkq0wxCtLYlw0Q/08KMAFrADU2-V8QMdW9abg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Search Results – JioMart.com' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="Click 'BUTTON'" sap:VirtualizedContainerService.HintSize="506.4,157.6" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6eedccc4-acdc-4838-b2f3-ccc3c83361c7" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.jiomart.com/search/tomato%201%20kg" CvTextArea="905, 734, 20, 20" CvTextArgument="+" CvType="Text" DesignTimeRectangle="896, 724, 40, 40" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'BUTTON'" FullSelectorArgument="&lt;webctrl idx='2' parentid='590003517' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='590003517' tag='BUTTON' class='jm-btn secondary small jm-icon jm-ml-s center qty_plus ' aaname='                                                      ' /&gt;" Guid="7c844395-73bb-4818-b090-9fbb89e1dd76" InformativeScreenshot="62653f110b8c0acd3c1490b5ba0b1bea.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Search Results – JioMart.com' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cart'" sap:VirtualizedContainerService.HintSize="506.4,157.6" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6eedccc4-acdc-4838-b2f3-ccc3c83361c7" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.jiomart.com/search/vegetables%20in%20fresh/in/prod_mart_master_vertical?prod_mart_master_vertical%5BhierarchicalMenu%5D%5Bcategory_tree.level0%5D%5B0%5D=Category" ContentHash="VlD9VeOCZUq2Vb6fFWU-RA" CvElementArea="1563, 197, 52, 50" CvTextArea="1589, 206, 12, 15" CvType="Icon" DesignTimeRectangle="1552, 197, 60, 60" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Cart'" FullSelectorArgument="&lt;webctrl id='btn_minicart' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='btn_minicart' tag='BUTTON' type='' class='jm-btn primary medium jm-icon jm-border-none' aaname='  ' /&gt;" Guid="0d756d05-49a1-4641-88fb-f846b45d711f" InformativeScreenshot="362bbee8a8c62d2a96caa95835909ed3.png" Reference="Ud9TRoFwzkq0wxCtLYlw0Q/pLtS2z1q1EqD5hndpipdsQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Search Results – JioMart.com' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="506.4,134.4" sap2010:WorkflowViewState.IdRef="StepStatus_2" ReportId="[int_Repid]" Status="Compare" StepDescription="Successfully Added the Product" StepName="Verify Product is added Successfully" TakeScreenshot="True" TestId="[int_TestId]" />
+            <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[ProductsDetail]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="506.4,88" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Sheet1" WorkbookPath="TestData\TestData1.xlsx" />
+            <uix:NGetText DisplayName="Get Text 'OnionCart'" sap:VirtualizedContainerService.HintSize="506.4,157.6" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="6eedccc4-acdc-4838-b2f3-ccc3c83361c7" TextString="[CartP1]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.jiomart.com/checkout/smartcart" ContentHash="-3YBBm7EVUi7JPOwZTzkvg" CvTextArea="369, 434, 89, 20" CvTextArgument="Onion 1 kg" CvType="Text" DesignTimeRectangle="371, 432, 796, 25" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'OnionCart'" FullSelectorArgument="&lt;webctrl aaname='Onion 1 kg' parentid='itemid-590003515' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Onion 1 kg' parentid='itemid-590003515' tag='DIV' type='' class='j-text product-name cursor-pointer j-text-body-xs ng-star-inserted' check:innerText='Onion 1 kg' /&gt;" Guid="a7b15073-7326-400e-a4f1-8ec18bb88d96" InformativeScreenshot="9e8e11c642019d98b6103b0e681f1dcf.png" Reference="Ud9TRoFwzkq0wxCtLYlw0Q/aMqp2c_0NUaGe1YQvtxqoQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Buy Grocery Online at Best Prices Pan India' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Get Text 'TomatoCart'" sap:VirtualizedContainerService.HintSize="506.4,157.6" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="6eedccc4-acdc-4838-b2f3-ccc3c83361c7" TextString="[CartP2]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.jiomart.com/checkout/smartcart" ContentHash="hOdI10IFKUSah9T0NeSTjw" CvTextArea="369, 652, 102, 20" CvTextArgument="Tomato 1 kg" CvType="Text" DesignTimeRectangle="371, 651, 796, 25" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'TomatoCart'" FullSelectorArgument="&lt;webctrl aaname='Tomato 1 kg' parentid='itemid-590003517' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Tomato 1 kg' parentid='itemid-590003517' tag='DIV' type='' class='j-text product-name cursor-pointer j-text-body-xs ng-star-inserted' check:innerText='Tomato 1 kg' /&gt;" Guid="dab23cb3-e7c7-4cdd-b194-a808a82d6b60" InformativeScreenshot="b73db15f6432eb78d5c583601a276777.png" Reference="Ud9TRoFwzkq0wxCtLYlw0Q/0v6Y0Fyffku5fVaVnDdNDg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Buy Grocery Online at Best Prices Pan India' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Get Text 'Quantity1'" sap:VirtualizedContainerService.HintSize="506.4,157.6" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="6eedccc4-acdc-4838-b2f3-ccc3c83361c7" TextString="[Qty1]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.jiomart.com/checkout/smartcart" ContentHash="_WAa6WbCT0mkEqG6Yc3e0Q" CvTextArea="1100, 777, 10, 17" CvTextArgument="1" CvType="Text" DesignTimeRectangle="1086, 774, 41, 23" DesignTimeScaleFactor="1.25" FriendlyName="'Quantity1'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-root&amp;gt;jds-theme&amp;gt;jds-container&amp;gt;app-layout-ds&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;app-smart-cart&amp;gt;div&amp;gt;jds-grid&amp;gt;div&amp;gt;jds-container&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;jds-text' idx='2' parentid='itemid-590003515' tag='JDS-TEXT' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='qty sp--s pd--horizontal' parentid='itemid-590003515' tag='JDS-TEXT' aaname='' check:innerText='1' /&gt;" Guid="27bfdc6a-f905-4e4b-b1fd-e52c20506518" InformativeScreenshot="bc8bbac6893071ef1aece6745c2486e6.png" Reference="Ud9TRoFwzkq0wxCtLYlw0Q/TqXceWO1KUOdh_zKLBC03w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Buy Grocery Online at Best Prices Pan India' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Get Text 'Quantity2'" sap:VirtualizedContainerService.HintSize="506.4,157.6" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="6eedccc4-acdc-4838-b2f3-ccc3c83361c7" TextString="[Qty2]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.jiomart.com/checkout/smartcart" ContentHash="c77nDSuoHEKm94AqVnlgRA" CvTextArea="1100, 579, 10, 18" CvTextArgument="1" CvType="Text" DesignTimeRectangle="1086, 576, 41, 23" DesignTimeScaleFactor="1.25" FriendlyName="'Quantity2'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-root&amp;gt;jds-theme&amp;gt;jds-container&amp;gt;app-layout-ds&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;app-smart-cart&amp;gt;div&amp;gt;jds-grid&amp;gt;div&amp;gt;jds-container&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;jds-text' idx='2' parentid='itemid-590003517' tag='JDS-TEXT' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='qty sp--s pd--horizontal' parentid='itemid-590003517' tag='JDS-TEXT' aaname='' check:innerText='1' /&gt;" Guid="0b3ae6eb-9828-4e93-a222-bc513e875984" InformativeScreenshot="17757fb0e81e345f68fe984fe74489d2.png" Reference="Ud9TRoFwzkq0wxCtLYlw0Q/x6ZX9CkX9EqR2Yi1ukH8jQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Buy Grocery Online at Best Prices Pan India' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[ProductsDetail]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="506.4,780.8" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+              <ui:ForEachRow.Body>
+                <ActivityAction x:TypeArguments="sd:DataRow">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="472.8,663.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <If Condition="[CurrentRow(&quot;Product1&quot;).ToString = CartP1 OR CurrentRow(&quot;Product2&quot;).ToString = CartP2 OR CurrentRow(&quot;Quantity1&quot;).ToString = Qty1 OR CurrentRow(&quot;Quantity2&quot;).ToString = Qty2]" sap:VirtualizedContainerService.HintSize="410.4,548" sap2010:WorkflowViewState.IdRef="If_1">
+                      <If.Then>
+                        <Sequence sap:VirtualizedContainerService.HintSize="376.8,182.4" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;The Product is added to the Cart&quot;]" />
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence sap:VirtualizedContainerService.HintSize="376.8,182.4" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Error" Message="[&quot;The Product Does not match&quot;]" />
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEachRow.Body>
+            </ui:ForEachRow>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="nrdgEz9y30eseOuRc4-tTQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJZSURBVFhHtVe7TsMwFI1EjRirpt0BwV4JdgZ2FmakCkb4CjamIiY2YIGZgZ2BvQg+ILQNFCEgIJ7iFe5x7BLKrWOX9kinihL73Ift61vPFoGXzzeGSpVw2N9qimKtmfOjpvBjSflcrIXC32oIv4Kxatr/QWKjdeGv/zJoQTjTorlKxh0yYlGocuIubIhi1TkjiJpSGXCCvZCyEVhnI/Ty5X4a14QToSiVlRke/Y68k8ZMJGtuZ/xiohy/Hh7FX9FdDDzvH8QXk2V2bCfhBLsnbDccjGvDaXzSO1snsDGV2QRIPTeQ4wtFCzzu7MVhaUw6hGcAWeHmcPy1FJT6bW4QR410tOelcfkOWUiPNRG1RRrHenADulHD9r2BkdwLFH2F+djm5fQMu+ZZ+Dirx5dTM6ymJkp7Zvrfjk+VpDvejk9YTU2Uay/ExcJ81HwPGkrOHcgCp/nDQs2jH+MlM8gMECNygP3Qpj52vcDmWGY68LSzq+TcgQrJaaaZuQQPG5tKzh2Yy2mmGGVuwvvVNSXnDszlNH9Im5AqkvEY3iyuKDl33C4ts5qa8hiiGHAfNa/nF5ScOzCX09REEVSluPs+QCXsFVezc6ymZvtarueo6WQGgLjtekXLcD3L9GsEI+brGOfZFVlFqEU2lfkE1HYbs2BbD3BxweGM5iS5itPAelBXNLB+UDMkG0G+S5uOpRikEzD+J/WdCAXa8v47AePQVmbM6HcmrCLvhKwPho3pwPWua26DJBv2TatkrhCh6XSO2gREgdIpncnh73mqeuKZ3qG4oLTbR+x539IEMjBilVOEAAAAAElFTkSuQmCC" InformativeScreenshot="00967c347f48680403034f802a38fe4a.jpg" Reference="GPYBVcthRk-26a5VZejozg/QasHkPOAmkq1MpsR-2oK9g" Selector="&lt;html app='chrome.exe' title='JioMart: India&amp;apos;s online shopping destination' /&gt;" Title="JioMart: India's online shopping destination" Url="https://www.jiomart.com/?gad_source=1&amp;gclid=CjwKCAiAibeuBhAAEiwAiXBoJOsTZYBnBQR2Js_FSfG5HilyfGwJXv15hJO-Ncucems3rJvXJKdO3RoCiAsQAvD_BwE" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

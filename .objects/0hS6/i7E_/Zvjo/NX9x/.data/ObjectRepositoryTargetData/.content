@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wawjtKMAfk2vNY4H6EdMzQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.jiomart.com/c/groceries/2" CvTextArea="207, 287, 82, 17" CvTextArgument="Groceries" CvType="Text" DesignTimeRectangle="200, 274, 98, 45" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Groceries'" FullSelectorArgument="&lt;webctrl id='nav_link_2' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='nav_link_2' tag='A' type='' class='header-nav-l1-item-link' aaname='Groceries' check:innerText='Groceries' /&gt;" Guid="838ab717-388d-4cf6-8723-420d6291d7b8" ScopeSelectorArgument="&lt;html app='chrome.exe' title='JioMart - Best Online Grocery Store for Your Daily Needs' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="63e89491ac0f361454bab9359d939200.png" xmlns="">0vaESGtcClUujp3B6H2STRg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

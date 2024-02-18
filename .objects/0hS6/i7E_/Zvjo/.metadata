@@ -1,0 +1,15 @@
+﻿{
+  "Name": "jiomart",
+  "Type": "Screen",
+  "Id": "ZvjoOWEB5keuowhBfIytrA",
+  "Reference": "Ud9TRoFwzkq0wxCtLYlw0Q/ZvjoOWEB5keuowhBfIytrA",
+  "ParentRef": "Ud9TRoFwzkq0wxCtLYlw0Q/i7E_EKnxsEuARgWr2cLWuQ",
+  "Created": "2024-02-18T05:18:40.5142539Z",
+  "Updated": "2024-02-18T05:18:49.6443679Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

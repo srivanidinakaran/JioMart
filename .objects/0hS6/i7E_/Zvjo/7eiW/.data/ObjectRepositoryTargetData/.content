@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IF_KpFs6Z0G20yAMSt5PJQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.jiomart.com/c/groceries/2" CvTextArea="1210, 219, 142, 18" CvTextArgument="Search JioMart" CvType="Text" DesignTimeRectangle="1152, 202, 390, 50" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'INPUT autocomplete-0-in…'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='search' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='search' class='aa-Input search_input' aaname='' /&gt;" Guid="8d739847-b20a-44e0-93fd-cad0a05d9d61" ScopeSelectorArgument="&lt;html app='chrome.exe' title='JioMart - Best Online Grocery Store for Your Daily Needs' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="342f675000a65415749ee654b4d715ab.png" xmlns="">03PLIy-wsUUil4yI8hpcfpg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

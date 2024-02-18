@@ -1,0 +1,16 @@
+﻿{
+  "Name": "AddTomato",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "08KMAFrADU2-V8QMdW9abg",
+  "Reference": "Ud9TRoFwzkq0wxCtLYlw0Q/08KMAFrADU2-V8QMdW9abg",
+  "ParentRef": "Ud9TRoFwzkq0wxCtLYlw0Q/ZvjoOWEB5keuowhBfIytrA",
+  "Created": "2024-02-18T09:41:43.4684788Z",
+  "Updated": "2024-02-18T09:42:26.580552Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

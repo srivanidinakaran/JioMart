@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Cart",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "pLtS2z1q1EqD5hndpipdsQ",
+  "Reference": "Ud9TRoFwzkq0wxCtLYlw0Q/pLtS2z1q1EqD5hndpipdsQ",
+  "ParentRef": "Ud9TRoFwzkq0wxCtLYlw0Q/ZvjoOWEB5keuowhBfIytrA",
+  "Created": "2024-02-18T05:25:10.0053831Z",
+  "Updated": "2024-02-18T05:25:36.1188639Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

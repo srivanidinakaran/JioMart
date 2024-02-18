@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hOdI10IFKUSah9T0NeSTjw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.jiomart.com/checkout/smartcart" CvTextArea="369, 652, 102, 20" CvTextArgument="Tomato 1 kg" CvType="Text" DesignTimeRectangle="371, 651, 796, 25" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Tomato 1 kg'" FullSelectorArgument="&lt;webctrl aaname='Tomato 1 kg' parentid='itemid-590003517' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Tomato 1 kg' parentid='itemid-590003517' tag='DIV' type='' class='j-text product-name cursor-pointer j-text-body-xs ng-star-inserted' check:innerText='Tomato 1 kg' /&gt;" Guid="dab23cb3-e7c7-4cdd-b194-a808a82d6b60" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Buy Grocery Online at Best Prices Pan India' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b73db15f6432eb78d5c583601a276777.png" xmlns="">0wpa0dNet40WNntIijEddRg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
